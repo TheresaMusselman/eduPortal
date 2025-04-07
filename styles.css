@@ -1,0 +1,162 @@
+<style>
+		html, body {
+			height: 100%;
+			margin: 0;
+			padding: 0;
+		}
+
+        body {
+            background-image: url('/IA/images/schoolBackground.jpg');
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+			background-attachment: fixed;
+			min-height: 100vh; 
+			background-color: #F0F0F0;
+        }
+		.school-header {
+			font-family: 'Georgia', serif; 
+			font-size: 3rem; 
+			font-weight: bold;
+			text-transform: uppercase;
+			color: #045D56; 
+			text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+			letter-spacing: 2px;
+			text-align: center;
+			margin: 0;
+			padding: 20px 0;
+		}
+
+		form {
+			background-color: #B0B0B0;
+			padding: 20px;
+			border-radius: 8px;
+		}
+		.container {
+			width: 100%; 
+			padding: 0 15px; 
+			margin: 0 auto; 
+		}
+		.checkbox-container {
+			display: block; 
+			position: relative; 
+			text-align: left; 
+		}
+
+		.custom-container {
+			margin-top: 30px;
+			margin-bottom: 30px;
+			background-color: #B0B0B0;
+			color: black;
+			padding: 20px;
+			border-radius: 8px;
+			box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+		}
+		
+		.card-body {
+			color: black;
+		}
+
+		.btn-primary {
+			background-color: #17A589;
+			border-color: #17A589;
+			color: black;
+		}
+		.btn-primary:hover {
+			background-color: #138D75;
+			border-color: #138D75;
+		}
+		.submit-btn {
+					background-color: #ffcc00;
+					color: black;
+					padding: 10px 20px;
+					flex-shrink:0;
+					font-size: 16px;
+					border: none;
+					cursor: pointer;
+					border-radius: 5px;
+					position: relative;
+					right:0;					
+					margin-bottom: 20px;
+					width: 200px; 
+					text-align: center;
+				}
+		@media (max-width: 768px) {
+			body {
+				background-size: contain;
+			}
+			h1 {
+				font-size: 1.5rem;
+			}
+			.container {
+				padding: 10px;
+			}
+		}
+		.jumbotron {
+			background-color: #17A589 !important;
+			background: radial-gradient(circle, #ffcc00, #17A589);
+			color: black;
+		}
+		nav.navbar.navbar-dark.bg-dark {
+			background-color: #17a589 !important;
+			border-bottom: 3px solid #F5CBA7 !important;
+		}
+		.multiselect {
+			display: flex;
+			gap:15px;
+		}
+		.multiselect-container { 
+			position: relative;
+		}
+		.multiselect-btn {
+			background-color: #17A589;
+			color: white;
+			padding: 10px 20px;
+			margin-bottom: 20px;
+			font-size: 16px;
+			border: none;
+			cursor: pointer;
+			border-radius: 5px;
+			width: 200px; 
+			text-align: left;
+		}
+		.dropdown-content {
+			display: none;
+			position: absolute;
+			background-color: #f1f1f1;
+			min-width: 200px;
+			max-height: 200px;
+			box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+			padding: 10px;
+			top: 100%;
+			left:0;
+			z-index: 10;
+			border-radius: 5px;
+			overflow-y: auto; 
+		}
+		.dropdown-content label {
+			display: block; 
+			margin-bottom: 5px;
+			text-align: left;
+		}
+
+		.dropdown-content input[type="checkbox"] {
+			vertical-align: middle;
+			margin-right: 5px;
+		}
+		.dropdown-content.show {
+			display: block;	
+		}
+		table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        th, td {
+            border: 1px solid #ddd;
+            padding: 8px;
+            text-align: left;
+        }
+        th {
+            background-color: #f2f2f2;
+        }
+</style>
